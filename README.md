@@ -1,1 +1,1 @@
-My Own Blog# Hexo
+# Hexo native files
