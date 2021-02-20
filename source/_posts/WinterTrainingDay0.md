@@ -1,7 +1,7 @@
 ---
 title: WinterTrainingDay0
 date: 2021-02-01 19:34:24
-tags: [code, training, jxyz]
+tags: [code, 集训, 嘉兴一中, 日常]
 ---
 
 # 高一寒假集训 Day0 记

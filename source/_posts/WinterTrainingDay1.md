@@ -1,7 +1,7 @@
 ---
 title: WinterTrainingDay1
 date: 2021-02-01 19:59:21
-tags: [code, jxyz, training]
+tags: [code, DP, LIS, LCS, 集训, 嘉兴一中, 背包问题]
 mathjax: true
 ---
 
@@ -208,7 +208,7 @@ for(int i = 1; i <= N; ++i) {
 
 &emsp;&emsp;从每种物品的角度考虑，与它相关的策略有取 0 件、取 1 件、取 2 件、$\cdots$、取 $\lfloor \frac{V}{v_i} \rfloor$ 件。如果仍按照解 01 背包问题的思路，令 $f_{i,j}$ 表示前 $i$ 种物品恰放入一个容量为 $j$ 的背包的最大价值，仍然可以写出状态转移方程：
 $$
-f_{i,j} = max\{f_{i-1, j-k\times v_i}+k\times w_i | 0\leqslant k\times v_i\leqslant j\}
+f_{i,j} = max\{f_{i-1, j-k\times v_i}+k\times w_i | 0\leqslant k\times v_i\leqslant j\}.
 $$
 &emsp;&emsp;求解状态 $f_{i,j}$ 的时间是 $O(\frac{j}{v_i})$ ，总的复杂度可以认为是 $O(VN\sum\frac{V}{v_i})$ ，是比较大的。
 
