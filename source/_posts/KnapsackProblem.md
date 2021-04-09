@@ -1,17 +1,15 @@
 ---
-title: WinterTrainingDay1
-date: 2021-02-01 19:59:21
-tags: [code, DP, LIS, LCS, 集训, 嘉兴一中, 背包问题]
+title: Knapsack Problem
+date: 2021-03-05 20:29:55
+tags: [code, DP, LIS, LCS, 背包问题]
 mathjax: true
 ---
 
-# 高一寒假集训 Day1 记
+# 背包问题
 
 <!-- more -->
 
 &emsp;&emsp;今天是紧张而刺激的一天！
-
-&emsp;&emsp;早晨如愿早起吃早饭，然后提前一个小时来到机房。于是有了这个博客（
 
 &emsp;&emsp;上午学习的是线性 DP 的两个基础模型：LIS（最长上升子序列）和 LCS（最长公共子序列）。
 
